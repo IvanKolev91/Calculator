@@ -30,7 +30,7 @@ public class Calculator {
     }
     private static double division(double a, double b) {
         if (b == 0) {
-            System.out.printf("You cannot divison by %.2f\n", b);
+            System.out.println("You cannot division by 0\n");
         }
         return a / b;
     }
